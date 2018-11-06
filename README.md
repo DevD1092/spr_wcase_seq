@@ -7,9 +7,9 @@ This repository contains the codes for simulation and testing of the star identi
 
 Please cite our paper appropriately if you use these codes in your research for development, simulation or testing of a new star identification algorithm or comparison & benchmarking with the above-mentioned algorithm, We welcome any questions regarding the code.
 
-This code is only for academic and research purposes.
+This code is only for academic and research purposes. Commercial use of this code is not permitted.
 
-Citation of the paper:
+Citation of the paper "A robust star identification algorithm with star shortlisting":
 
 @article{mehta2018robust,
   title={A robust star identification algorithm with star shortlisting},
