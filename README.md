@@ -44,4 +44,4 @@ This repository contains four folders. The information about each of the folder 
 #### 3. SPD - Generating the SPD for the propsoed technique
 &nbsp;&nbsp;&nbsp;&nbsp;SPD_generate.m -- For generating the SPD for the propsoed technique. Specific parameters (such as the FOV, pixel size, Mv, bin_size, etc.) can be specified inside the script.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;SPD_angles_Mv_6.txt -- SPD of the relative angles generated from the above script with a magnitude threshold (Mv) of 6.0. This SPD should be given as an input to the Testing scripts.<br />\
-&nbsp;&nbsp;&nbsp;&nbsp;SPD_dist.txt -- SPD of the radial distances generated from the above script with a magnitude threshold (Mv) of 6.0. This SPD should be given as an input to the Testing scripts.<br />\
+&nbsp;&nbsp;&nbsp;&nbsp;SPD_dist.txt -- SPD of the radial distances generated from the above script with a magnitude threshold (Mv) of 6.0. This SPD should be given as an input to the Testing scripts.<br />
