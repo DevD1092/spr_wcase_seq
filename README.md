@@ -11,13 +11,13 @@ This code is only for academic and research purposes. Commercial use of this cod
 
 Citation of the paper "A robust star identification algorithm with star shortlisting":
 
-@article{mehta2018robust,
-  title={A robust star identification algorithm with star shortlisting},
-  author={Mehta, Deval Samirbhai and Chen, Shoushun and Low, Kay Soon},
-  journal={Advances in Space Research},
-  volume={61},
-  number={10},
-  pages={2647--2660},
-  year={2018},
-  publisher={Elsevier}
+@article{mehta2018robust,<br />
+  title={A robust star identification algorithm with star shortlisting},<br />
+  author={Mehta, Deval Samirbhai and Chen, Shoushun and Low, Kay Soon},<br />
+  journal={Advances in Space Research},<br />
+  volume={61},<br />
+  number={10},<br />
+  pages={2647--2660},<br />
+  year={2018},<br />
+  publisher={Elsevier}<br />
 }
