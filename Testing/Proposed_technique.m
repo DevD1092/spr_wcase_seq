@@ -38,7 +38,7 @@ img_dimension=[img_width img_height];
 
 %Load SC
 
-catalog_path='F:\Amine-CMOS-Imager\Literature Review\P_Star_Tracker\Implementation\Proposed_idea\SKY2000_Magnitude6_doublestars_0.12.txt';
+catalog_path='..\simulate\SKY2000_Magnitude6_doublestars_0.12.txt';
 
 
 % Initialize camera attitude
@@ -176,7 +176,7 @@ for ii = 1:size(RA,1)
 
         Reci2body= Convert_Axis_2_AttitudeMatrix(RA(ii),DEC(jj),angle);
 
-        [star_matrix, I]= Plot_sky_images_mine(Reci2body, FOV, img_height, img_width, pixel_size,cent_variance, no_ran_star, SNR, background_noise, PSF_set,catalog);
+        [star_matrix, I]= Plot_sky_images(Reci2body, FOV, img_height, img_width, pixel_size,cent_variance, no_ran_star, SNR, background_noise, PSF_set,catalog);
     
         [row_star_matrix,col_star_matrix] = size(star_matrix);
         
@@ -400,9 +400,9 @@ end
     end
 %% Load the Star pattern databases that were generated
 
-SPD_angle = dlmread('F:\Amine-CMOS-Imager\Literature Review\P_Star_Tracker\Implementation\Proposed_idea\SPD_new\Book2.txt');
+SPD_angle = dlmread('..\SPD\SPD_angles_Mv_6.txt');
 
-SPD_dist = dlmread('F:\Amine-CMOS-Imager\Literature Review\P_Star_Tracker\Implementation\Proposed_idea\SPD_new\Book1.txt');
+SPD_dist = dlmread('..\SPD\SPD_distance.txt');
 
 PSID_list = [];
 voting_list = [];
